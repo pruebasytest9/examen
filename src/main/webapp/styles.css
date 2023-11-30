@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #5a5a5a;
+    color: white;
+    padding-top: 10px;
+    min-height: 70px;
+    border-bottom: #e8491d 4px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header #branding h1 span {
+    color: #e8491d;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header a:hover {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px 0;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-top: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 15px;
+    background-color: #e8491d;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#index-container ul {
+    margin-top: 20px;
+}
+
+#transferencia-container form {
+    max-width: 500px;
+}
+
+footer {
+    background: #5a5a5a;
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    header #branding,
+    header nav,
+    header ul,
+    header #branding h1 span,
+    header a {
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    header {
+        height: auto;
+        text-align: center;
+    }
+}
